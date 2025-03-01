@@ -7,13 +7,94 @@ body {
     background-color: white;
 }
 
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 108, 223);
+    padding: 10px 20px;
+    color: white;
+    height: 70px;
+}
+
+/*Navbar left side*/
+.nav-left {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 12px;
+    height: 42px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+/*Navbar right side*/
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+    position: relative;
+}
+
+.nav-right input {
+    padding: 5px;
+    border: 1px white solid;
+    outline: none;
+    background-color: rgb(64, 140, 241);
+    border-radius: 3px;
+    height: 30px;
+}
+
+.nav-right input::placeholder {
+    color: white;
+}
+
+.nav-right button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+    top: 50%; /*將元素的頂部定位到其父容器高度的 50% 處。*/
+    transform: translateY(-50%); /*將元素向上移動其自身高度的 50%，從而實現垂直居中。*/
+}
+
+.nav-right button i {
+    color: white;
+}
+
+.sign-in {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.sign-in i {
+    margin: 0 5px;
+}
+
 /* Error Box */
 .error-box {
     display: inline-block;
     background: rgb(2, 108, 223);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
 }
 
