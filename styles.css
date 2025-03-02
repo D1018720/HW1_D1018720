@@ -10,7 +10,7 @@ body {
 /* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(2, 108, 223);
     padding: 10px 20px;
@@ -20,7 +20,7 @@ body {
 
 /*Navbar left side*/
 .nav-left {
-    margin-left: 200px;
+    margin-right: 150px;
     display: flex;
     align-items: center;
 }
@@ -44,6 +44,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 18px;
 }
 
 
@@ -52,7 +53,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 200px;
     position: relative;
 }
 
@@ -63,11 +63,13 @@ body {
     background-color: rgb(64, 140, 241);
     border-radius: 3px;
     height: 30px;
+    margin-right: 10px;
 }
 
 .nav-right input::placeholder {
     color: white;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .nav-right button {
@@ -76,7 +78,7 @@ body {
     padding: 5px;
     cursor: pointer;
     position: absolute;
-    right: 104px;
+    right: 124px;
     top: 50%; /*將元素的頂部定位到其父容器高度的 50% 處。*/
     transform: translateY(-50%); /*將元素向上移動其自身高度的 50%，從而實現垂直居中。*/
 }
@@ -91,6 +93,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
+    font-size: 18px;
 }
 
 .sign-in i {
