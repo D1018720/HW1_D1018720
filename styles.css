@@ -40,6 +40,13 @@ body {
     margin: 0 10px;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
 /*Navbar right side*/
 .nav-right {
     display: flex;
@@ -60,6 +67,7 @@ body {
 
 .nav-right input::placeholder {
     color: white;
+    font-size: 16px;
 }
 
 .nav-right button {
@@ -68,13 +76,14 @@ body {
     padding: 5px;
     cursor: pointer;
     position: absolute;
-    right: 90px;
+    right: 104px;
     top: 50%; /*將元素的頂部定位到其父容器高度的 50% 處。*/
     transform: translateY(-50%); /*將元素向上移動其自身高度的 50%，從而實現垂直居中。*/
 }
 
 .nav-right button i {
     color: white;
+    font-size: 16px;
 }
 
 .sign-in {
