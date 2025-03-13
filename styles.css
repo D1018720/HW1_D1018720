@@ -72,7 +72,7 @@ body {
     font-weight: bold;
 }
 
-.nav-right .searchBtn {
+.nav-right button {
     background: none;
     border: none;
     padding: 5px;
@@ -83,7 +83,7 @@ body {
     transform: translateY(-50%); /*將元素向上移動其自身高度的 50%，從而實現垂直居中。*/
 }
 
-.nav-right .searchBtn i {
+.nav-right button i {
     color: white;
     font-size: 16px;
 }
